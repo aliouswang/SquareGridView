@@ -2,7 +2,7 @@
 
 SquareGridView is a viewGroup for display multiple images, it is more light than GridView and GridLayout! I has optimize reuse performance in recyclerView and ListView for you!
 
-Please be free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
+Please feel be free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
 
 # Download
 
