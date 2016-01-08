@@ -73,3 +73,4 @@ squareGridView.setAdapter(adapter);
   
 # Author
   aliouswang
+  aliouswang@gmail.com
