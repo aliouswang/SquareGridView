@@ -14,7 +14,7 @@
         android:layout_weight="2"
         android:id="@+id/textView" />
     <RelativeLayout
-        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_width="match_parent"
         android:background="@android:color/holo_blue_dark"
         android:layout_weight="1"
         android:layout_height="wrap_content">
