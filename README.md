@@ -1,12 +1,15 @@
 # SquareGridView
+
 SquareGridView is a viewGroup for  display multiple images, it can used in recyclerView and ListView also!
 
 Please be free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
 
 # Download
+
 I has just commit this project to jcenter, now it is under review, will come soon.
 
 # How do I use SquareGridView
+
 1. Add SquareGridView into you layout xml file.
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,9 +38,9 @@ I has just commit this project to jcenter, now it is under review, will come soo
     </RelativeLayout>
   </LinearLayout>
   ```
-  2. Attach dataSource to SuqareGridView.
-  ```
-  SquareGridView squareGridView = (SquareGridView) convertView
+2. Attach dataSource to SuqareGridView.
+```
+SquareGridView squareGridView = (SquareGridView) convertView
                     .findViewById(R.id.square_grid_view);
             final Diary diary = mDiaryList.get(position);
             SquareViewAdapter<Diary> adapter = new SquareViewAdapter<Diary>() {
@@ -62,10 +65,11 @@ I has just commit this project to jcenter, now it is under review, will come soo
                             "index :" + index, Toast.LENGTH_SHORT).show();
                 }
             };
-            squareGridView.setAdapter(adapter);
-  ```
-  # Licence
+squareGridView.setAdapter(adapter);
+```
+
+# Licence
   Apache 2.0
   
-  # Author
+# Author
   aliouswang
