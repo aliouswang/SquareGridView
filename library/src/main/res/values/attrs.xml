@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SquareGridView">
+        <!-- number of column -->
+        <attr name="numColumns" format="integer"/>
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <!-- max children number limit -->
+        <attr name="maxSize" format="integer"/>
+        <!-- height/width default is 1 -->
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+</resources>
