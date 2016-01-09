@@ -1,12 +1,17 @@
 # SquareGridView
 
-SquareGridView is a viewGroup for display multiple images, it is more light than GridView and GridLayout! I has optimize reuse performance in recyclerView and ListView for you!
+SquareGridView is a viewGroup for display multiple images, it is more light than GridView and GridLayout!
+I has optimize the reuse performance in recyclerView and ListView for you! Now listview can scroll super smooth
+when you add severial images into each cell.
 
-Please feel be free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
+Please feel free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
 
-# Download
+# Download      
 
-I has just commit this project to jcenter, now it is under review, will come soon.
+```
+compile 'com.aliouswang:library:1.0.0'
+
+```
 
 # How do I use SquareGridView
 
