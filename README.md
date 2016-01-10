@@ -6,9 +6,11 @@ when you add severial images into each cell.
 
 Please feel free to use! Any questions you can add a issue or email me aliouswang@gmail.com!
 
-# Download      
+# Download     
 
 ```
+Gradle:
+
 compile 'com.aliouswang:library:1.0.0'
 
 ```
