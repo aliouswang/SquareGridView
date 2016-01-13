@@ -62,12 +62,17 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
+            ViewHolder viewHolder;
             if (convertView == null) {
                 convertView = LayoutInflater.from(MainActivity.this)
                         .inflate(R.layout.nine_grid_list_item_layout, null);
+                viewHolder = new ViewHolder();
+                viewHolder.squareGridView = (SquareGridView) convertView
+                        .findViewById(R.id.square_grid_view);
+                convertView.setTag(viewHolder);
+            }else {
+                viewHolder = (ViewHolder) convertView.getTag();
             }
-            SquareGridView squareGridView = (SquareGridView) convertView
-                    .findViewById(R.id.square_grid_view);
             final Diary diary = mDiaryList.get(position);
             SquareViewAdapter<Diary> adapter = new SquareViewAdapter<Diary>() {
                 @Override
@@ -91,8 +96,12 @@ public class MainActivity extends AppCompatActivity {
                             "index :" + index, Toast.LENGTH_SHORT).show();
                 }
             };
-            squareGridView.setAdapter(adapter);
+            viewHolder.squareGridView.setAdapter(adapter);
             return convertView;
+        }
+
+        class ViewHolder {
+            SquareGridView squareGridView;
         }
     }
 
